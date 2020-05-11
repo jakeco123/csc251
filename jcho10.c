@@ -97,6 +97,7 @@ int main(void)
 
 	return EXIT_SUCCESS;
 
+	fclose(rptr);
 }
 
 void posBal(double x)
